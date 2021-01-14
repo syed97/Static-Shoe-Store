@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgba(66, 19, 19, 0.486);
+    font-family: tahoma;
+}
+header{
+    position: fixed;
+    display: block;
+    text-align: center;
+    background-color: rgba(214, 108, 21, 0.786);
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding: 22px 0px;
+}
+
+header h1{
+    color: rgba(211, 207, 203, 0.918);
+    border: 8px solid rgba(211, 207, 203, 0.918);;
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 36px;
+    font-size: 24px;
+}
+
+section#intro{
+    position: relative;
+    width: 100%;
+    /*background-color:rgba(66, 19, 19, 0.486);*/
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-bottom: 0px;
+}
+
+section#intro h2{
+    color:rgba(211, 207, 203, 0.918);
+    font-size: 50px;
+}
+
+img#intro {
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+}
+
+div#welcome{
+    position: absolute;
+    display: inline-block;
+    bottom: 45%;
+    left: 15%;
+    padding: 0px;
+}
+
+nav{
+    background: #F4F4F4;
+    background-color:rgba(214, 108, 21, 0.786);
+    padding: 20px;
+    position: sticky;
+    top: 121px;
+    z-index: 1;
+}
+nav ul{
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    width: 30%;
+    font-size: 25px;
+    color: rgba(211, 207, 203, 0.918);
+}
+nav li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+section#main{
+    position: relative;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding-bottom: 0px;
+}
+
+
+#main_img{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+}
+
+#main_div{
+    background-color: rgba(214, 108, 21, 0.786); /*rgba(155, 153, 151, 0.686);*/
+    width: 80%;
+    position: absolute;
+    margin: 0px auto;
+    top: 25%;
+    left: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#main_div h2{
+    text-align: center;
+    color: rgba(211, 207, 203, 0.918);
+}
+
+#main_div p{
+    text-indent: 5px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(211, 207, 203, 0.918);
+}
+
+section#product{
+    background-color: rgba(211, 207, 203, 0.918);
+}
+
+section#product ul{
+    white-space: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+section#product h2{
+    text-align: center;
+    padding-top: 40px;
+}
+section#product li{
+    display: inline-block;
+    width: 25%;
+    font-size: 30px;
+    border: 5px ridge;
+    padding: 50px 0;
+    margin: 0 10px;
+    background-color: bisque;
+}
+.mutable:hover{
+    cursor: pointer;
+    box-shadow: 0px 7px 7px grey;
+    transform: translateY(-10px); 
+    
+}
+
+footer{
+    background-color:rgba(155, 153, 151, 0.686);
+    padding: 25px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 5px;
+}
+footer p{
+    display: inline-block;
+}
